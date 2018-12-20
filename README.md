@@ -4,6 +4,14 @@
 
 Frontend website for [IoTeX blockchain](https://github.com/iotexproject/iotex-core).
 
+Check our site hosted at [https://iotexscan.io].
+
+Or deploy your own instance on Heroku.
+
+<a href="https://heroku.com/deploy?template=https://github.com/iotexproject/iotex-explorer">
+  <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
+</a>
+
 ## Development
 
 Prepare environment variables.
@@ -15,7 +23,7 @@ cp ./.env.tmpl ./.env
 And specify environment variables in `.env` file.
 
 ```
-nvm install 8.11.3
+nvm install 10.14.2
 npm install
 
 # watch the change during development
